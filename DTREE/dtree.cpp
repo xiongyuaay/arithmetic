@@ -58,7 +58,6 @@ typedef struct _path
     /* data */
     int last;
     int node;
-    int cost;
     int adj;
 }Path;
 
@@ -77,30 +76,11 @@ void dTree::solution()
     //main函数通过调用dTree类的solution函数，通过cout输出结果。
     int count = 0;
     vector<Path> path;
-    path.push_back({-1, 0, 0, 0});
+    path.push_back({-1, 0, 0});
     int i;
     while(path.size() != 0)
     {
         Path curr = path.back();
-        if(curr.cost > td)
-        {
-            count++;
-            curr.cost = 0;
-            curr.adj = 0;
-            path.pop_back();
-            for(int j=0;j<tn;j++)
-            {
-                if(edge[curr.node][j] != Max)
-                {
-                    Path child = {-1, j, 0, 0};
-                    path.push_back(child);
-                    edge[curr.node][j] = Max;
-                }
-                
-            }
-            edge[curr.last][curr.node] = Max;
-            continue;
-        }
         for(i=curr.adj;i<tn;i++)
         {
             if(edge[curr.node][i] != Max)
@@ -108,7 +88,7 @@ void dTree::solution()
                 curr.adj = i+1;
                 path.pop_back();
                 path.push_back(curr);
-                Path next = {curr.node, i, curr.cost + edge[curr.node][i], 0};
+                Path next = {curr.node, i, 0};
                 path.push_back(next);
                 break;
             }        
@@ -116,7 +96,41 @@ void dTree::solution()
         }
         if(i >= tn)
         {
-            path.pop_back();
+            curr = path.back();
+            int cost = 0;
+            if(curr.last == -1)
+            {
+                path.pop_back();
+            }
+            while(curr.last != -1)
+            {
+                cost += edge[curr.last][curr.node];
+                path.pop_back();
+                if(cost > td)
+                {
+                    count++;
+                    edge[curr.last][curr.node] = Max;
+                    for(int k=0;k<tn;k++)
+                    {
+                        
+                        if(k<curr.adj)
+                        {
+                            edge[curr.node][k] = Max;
+                            continue;
+                        }
+                        if(edge[curr.node][k] != Max)
+                        {
+                            edge[curr.node][k] = Max;
+                            curr.adj = k+1;
+                            Path next = {-1, k, 0};
+                            path.push_back(next);
+                        }        
+                    }
+                    break;
+                }
+                curr = path.back();
+            }
+
         }
         
     }
