@@ -1,8 +1,8 @@
 [
 {
   "directory": "E:/AlgoPro/LeetCode100/build",
-  "command": "D:\\LLVM\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\20.dir\\20.cpp.obj -c E:\\AlgoPro\\LeetCode100\\20.cpp",
-  "file": "E:/AlgoPro/LeetCode100/20.cpp",
-  "output": "CMakeFiles/20.dir/20.cpp.obj"
+  "command": "D:\\LLVM\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\30.dir\\30.cpp.obj -c E:\\AlgoPro\\LeetCode100\\30.cpp",
+  "file": "E:/AlgoPro/LeetCode100/30.cpp",
+  "output": "CMakeFiles/30.dir/30.cpp.obj"
 }
 ]
