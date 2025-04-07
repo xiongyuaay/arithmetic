@@ -4,4 +4,4 @@ project(CPP)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(22 ./22.cpp)
+add_executable(35 ./35.cpp)

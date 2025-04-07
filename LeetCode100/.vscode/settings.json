@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "map": "cpp",
+        "xtree": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "deque": "cpp",
+        "stdlib.h": "c",
+        "iterator": "c",
+        "vector": "c",
+        "format": "c",
+        "initializer_list": "c",
+        "type_traits": "c",
+        "new": "cpp"
+    }
+}
