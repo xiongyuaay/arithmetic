@@ -1,8 +1,8 @@
 [
 {
-  "directory": "E:/AlgoPro/LeetCode100/build",
-  "command": "D:\\LLVM\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles\\35.dir\\35.cpp.obj -c E:\\AlgoPro\\LeetCode100\\35.cpp",
-  "file": "E:/AlgoPro/LeetCode100/35.cpp",
-  "output": "CMakeFiles/35.dir/35.cpp.obj"
+  "directory": "/Users/yuaay/code/arithmetic/LeetCode100/build",
+  "command": "/usr/bin/clang++   -g -O0 -std=gnu++17 -arch arm64 -o CMakeFiles/40.dir/40.cpp.o -c /Users/yuaay/code/arithmetic/LeetCode100/40.cpp",
+  "file": "/Users/yuaay/code/arithmetic/LeetCode100/40.cpp",
+  "output": "CMakeFiles/40.dir/40.cpp.o"
 }
 ]

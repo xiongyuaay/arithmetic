@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/yuaay/Code/arithmetic/LeetCode100/35.cpp" "CMakeFiles/35.dir/35.cpp.o" "gcc" "CMakeFiles/35.dir/35.cpp.o.d"
+  "/Users/yuaay/code/arithmetic/LeetCode100/40.cpp" "CMakeFiles/40.dir/40.cpp.o" "gcc" "CMakeFiles/40.dir/40.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

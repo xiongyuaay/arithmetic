@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "35.exe"
-  "35.exe.manifest"
-  "35.lib"
+  "35"
   "35.pdb"
-  "CMakeFiles/35.dir/35.cpp.obj"
-  "CMakeFiles/35.dir/35.cpp.obj.d"
+  "CMakeFiles/35.dir/35.cpp.o"
+  "CMakeFiles/35.dir/35.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

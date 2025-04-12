@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/addr2line.exe"
+			"value" : "CMAKE_ADDR2LINE-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-ar.exe"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/AlgoPro/LeetCode100/build"
+			"value" : "/Users/yuaay/code/arithmetic/LeetCode100/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_CACHE_MINOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "30"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -119,7 +119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CMake/bin/cmake.exe"
+			"value" : "/opt/homebrew/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -131,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CMake/bin/cpack.exe"
+			"value" : "/opt/homebrew/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CMake/bin/ctest.exe"
+			"value" : "/opt/homebrew/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -159,55 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/clang++.exe"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER_AR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-ar.exe"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "`clang-scan-deps` dependency scanner"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/clang-scan-deps.exe"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER_RANLIB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-ranlib.exe"
+			"value" : "/usr/bin/clang++"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -239,7 +191,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+			"value" : "-g"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -255,7 +207,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-Os -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
+			"value" : "-Os -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELEASE",
@@ -271,7 +223,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
+			"value" : "-O3 -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
@@ -287,23 +239,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O2 -DNDEBUG -g -Xclang -gcodeview -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
-		},
-		{
-			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C++ applications."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames"
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -319,55 +255,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/clang.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_AR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-ar.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_CLANG_SCAN_DEPS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "`clang-scan-deps` dependency scanner"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/clang-scan-deps.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_RANLIB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-ranlib.exe"
+			"value" : "/usr/bin/clang"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -399,7 +287,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+			"value" : "-g"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -415,7 +303,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-Os -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
+			"value" : "-Os -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELEASE",
@@ -431,7 +319,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
+			"value" : "-O3 -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -447,23 +335,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O2 -DNDEBUG -g -Xclang -gcodeview -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
-		},
-		{
-			"name" : "CMAKE_C_STANDARD_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C applications."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames"
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -479,7 +351,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-dlltool.exe"
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -491,7 +363,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CMake/bin/cmake-gui.exe"
+			"value" : "/opt/homebrew/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -503,7 +375,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unknown"
+			"value" : "MACHO"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS",
@@ -619,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/AlgoPro/LeetCode100/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/yuaay/code/arithmetic/LeetCode100/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MinGW Makefiles"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -679,7 +551,23 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/AlgoPro/LeetCode100"
+			"value" : "/Users/yuaay/Code/arithmetic/LeetCode100"
+		},
+		{
+			"name" : "CMAKE_INSTALL_NAME_TOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/install_name_tool"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +579,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/CPP"
+			"value" : "/usr/local"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -707,7 +595,19 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/lld-link.exe"
+			"value" : "/usr/bin/ld"
+		},
+		{
+			"name" : "CMAKE_LIST_FILE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of CMakeLists files to read"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CMakeLists.txt"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -723,7 +623,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/mingw32-make.exe"
+			"value" : "/usr/bin/make"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -819,7 +719,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-nm.exe"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -847,7 +747,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-objcopy.exe"
+			"value" : "CMAKE_OBJCOPY-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -863,7 +763,43 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-objdump.exe"
+			"value" : "/usr/bin/objdump"
+		},
+		{
+			"name" : "CMAKE_OSX_ARCHITECTURES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build architectures for OSX"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_OSX_DEPLOYMENT_TARGET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minimum OS X version to target for deployment (at runtime); newer APIs weak linked. Set to empty string for default value."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_OSX_SYSROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The product will be built against the headers and libraries located inside the indicated SDK."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -927,115 +863,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-ranlib.exe"
-		},
-		{
-			"name" : "CMAKE_RC_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "RC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-rc.exe"
-		},
-		{
-			"name" : "CMAKE_RC_COMPILER_WORKS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during all build types."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1051,7 +879,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/readelf.exe"
+			"value" : "CMAKE_READELF-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1063,7 +891,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CMake/share/cmake-3.30"
+			"value" : "/opt/homebrew/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1271,7 +1099,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/LLVM/bin/llvm-strip.exe"
+			"value" : "/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1287,7 +1115,19 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_TAPI-NOTFOUND"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/tapi"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1315,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/AlgoPro/LeetCode100/build"
+			"value" : "/Users/yuaay/code/arithmetic/LeetCode100/build"
 		},
 		{
 			"name" : "CPP_IS_TOP_LEVEL",
@@ -1339,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/AlgoPro/LeetCode100"
+			"value" : "/Users/yuaay/code/arithmetic/LeetCode100"
 		}
 	],
 	"kind" : "cache",
