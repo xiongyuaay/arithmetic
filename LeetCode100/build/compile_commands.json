@@ -1,8 +1,8 @@
 [
 {
   "directory": "/Users/yuaay/code/arithmetic/LeetCode100/build",
-  "command": "/usr/bin/clang++   -g -O0 -std=gnu++17 -arch arm64 -o CMakeFiles/40.dir/40.cpp.o -c /Users/yuaay/code/arithmetic/LeetCode100/40.cpp",
-  "file": "/Users/yuaay/code/arithmetic/LeetCode100/40.cpp",
-  "output": "CMakeFiles/40.dir/40.cpp.o"
+  "command": "/usr/bin/clang++   -g -O0 -std=gnu++17 -arch arm64 -o CMakeFiles/51.dir/51.cpp.o -c /Users/yuaay/code/arithmetic/LeetCode100/51.cpp",
+  "file": "/Users/yuaay/code/arithmetic/LeetCode100/51.cpp",
+  "output": "CMakeFiles/51.dir/51.cpp.o"
 }
 ]

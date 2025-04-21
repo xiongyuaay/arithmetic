@@ -48,6 +48,16 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "memory": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__tree": "cpp",
+        "bitset": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "print": "cpp",
+        "set": "cpp",
+        "complex": "cpp",
+        "sstream": "cpp",
+        "stack": "cpp",
+        "unordered_set": "cpp"
     }
 }
